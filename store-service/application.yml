@@ -1,0 +1,12 @@
+server:
+  port: 8762
+
+#  设置服务名
+spring:
+  application:
+    name: store-service
+#  设置注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
